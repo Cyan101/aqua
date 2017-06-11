@@ -12,7 +12,8 @@ TODO: Write usage instructions here
 
 ## Development
 
-TODO: Write development instructions here
+* Add installation, usage and a description to README
+* More examples such as file uploads and music playing
 
 ## Contributing
 
