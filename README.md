@@ -13,7 +13,11 @@ TODO: Write usage instructions here
 ## Development
 
 * Add installation, usage and a description to README
-* More examples such as file uploads and music playing
+* More examples such as file uploads and music playin
+* Allow changing playing status
+* Allow setting avatar picture
+* Create poll system using reactions
+* Do some embed stuff
 
 ## Contributing
 
