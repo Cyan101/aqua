@@ -1,0 +1,13 @@
+name: aqua
+version: 0.1.0
+
+authors:
+  - Jos Spencer <crazyandroid101@gmail.com>
+
+targets:
+  aqua:
+    main: src/aqua.cr
+
+crystal: 0.22.0
+
+license: MIT
