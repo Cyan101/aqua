@@ -1,0 +1,5 @@
+/doc/
+/lib/
+/bin/
+/.shards/
+bot_token.txt

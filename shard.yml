@@ -2,7 +2,7 @@ name: aqua
 version: 0.1.0
 
 authors:
-  - Jos Spencer <crazyandroid101@gmail.com>
+  - Cyan/Jos <crazyandroid101@gmail.com>
 
 targets:
   aqua:
@@ -11,3 +11,8 @@ targets:
 crystal: 0.22.0
 
 license: MIT
+
+dependencies:
+  discordcr:
+    github: meew0/discordcr
+    branch: master
