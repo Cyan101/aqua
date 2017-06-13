@@ -10,7 +10,7 @@ From the Repo
 2. cd `aqua`
 3. Delete the .git folder `rm -rf .git` and start your own repo `git init`
 4. Install all the required shards with `shards`
-5. Rename the config template `mv config-template.yaml config.yaml` and fill in the details
+5. Rename the config template `mv config-template.yaml config.yaml`
 
 From the compiled release
 
@@ -20,7 +20,8 @@ TODO
 
 From the Repo
 
-1. Run `crystal src/aqua.cr`, alternatively use a proccess manager like PM2 to run it in the background
+1. Put the bot details from [Discord](https://discordapp.com/developers/applications/me) into the config file
+2. Run `crystal src/aqua.cr`, alternatively use a proccess manager like PM2 to run it in the background
 
 ## Development
 
