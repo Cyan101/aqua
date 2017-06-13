@@ -23,6 +23,9 @@ module Aqua
       when "~say"
         content.shift
         CLIENT.create_message(payload.channel_id, content.join(" "))
+      when "~hide"
+        CLIENT.create_message(payload.channel_id, "*Returns to the shadows...*")
+        CLIENT.status_update("invisible")
       end
     end
   end
