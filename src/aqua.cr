@@ -1,13 +1,8 @@
-require "discordcr"
-require "yaml"
-require "./aqua/modules/*"
-require "./aqua/*"
+require "./aqua/requires.cr"
 
 Config = YAML.parse(File.read("config.yaml"))
 
-
 module Aqua
-
   # TODO Put your code here
   CLIENT = Discord::Client.new(token: "Bot " + Config["token"].as_s, client_id: 323303029056995329_u64)
 

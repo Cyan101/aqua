@@ -1,0 +1,5 @@
+require "discordcr"
+require "yaml"
+require "http/client"
+require "json"
+require "./modules/*"
