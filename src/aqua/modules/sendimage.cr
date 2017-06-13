@@ -7,7 +7,7 @@ module Aqua
     when prefix + "kitty"
       response = HTTP::Client.get "http://random.cat/meow"
       link = JSON.parse(response.body)["file"]
-      CLIENT.create_message(payload.channel_id, link.to_s) # "#{link}" probably looks a bit nicer
+      CLIENT.create_message(payload.channel_id, link.as_s) # "#{link}" probably looks a bit nicer
     end
   end
 end
