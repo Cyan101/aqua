@@ -26,6 +26,11 @@ module Aqua
       when "~hide"
         CLIENT.create_message(payload.channel_id, "*Returns to the shadows...*")
         CLIENT.status_update("invisible")
+      when "~pfp"
+        content.shift
+        response = HTTP::Client.get content[0]
+        file_ext = content.join.split('.').[-1]
+        CLIENT.modify_current_user("Aqua", "data:image/#{file_ext};base64," + Base64.encode(response.body))
       end
     end
   end
