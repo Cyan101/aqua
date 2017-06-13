@@ -25,9 +25,7 @@ From the Repo
 
 ## Development
 
-* More examples such as file uploads and music playing
-* Allow changing playing status
-* Allow setting avatar picture
+* More examples such as ~~file uploads~~ and music playing
 * Create poll system using reactions
 * Do some embed stuff
 * Comment Code
