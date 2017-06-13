@@ -33,7 +33,7 @@ module Aqua
         CLIENT.modify_current_user("Aqua", "data:image/#{file_ext};base64," + Base64.encode(response.body))
       when "~game", "~play"
         content.shift
-        CLIENT.status_update("online", Discord::GamePlaying.new("#{content[0]}"))
+        CLIENT.status_update("online", Discord::GamePlaying.new("#{content.join(" ")}"))
       end
     end
   end
