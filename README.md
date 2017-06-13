@@ -10,6 +10,7 @@ From the Repo
 2. cd `aqua`
 3. Delete the .git folder `rm -rf .git` and start your own repo `git init`
 4. Install all the required shards with `shards`
+5. Rename the config template `mv config-template.yaml config.yaml` and fill in the details
 
 From the compiled release
 
