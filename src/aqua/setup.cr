@@ -5,7 +5,7 @@ macro gets_scalar(value)
 end
 
 unless File.exists?("config.yaml")
-  puts "No config found, creating Config.yaml"
+  puts "No config found, creating config.yaml"
   yaml = YAML.build do |yaml|
     yaml.mapping do
       gets_scalar token
