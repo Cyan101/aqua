@@ -3,7 +3,6 @@ require "./aqua/requires.cr"
 Config = YAML.parse(File.read("config.yaml"))
 
 module Aqua
-
   CLIENT = Discord::Client.new(token: "Bot " + Config["token"].as_s, client_id: 323303029056995329_u64)
 
   CLIENT.on_message_create do |payload|
